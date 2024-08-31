@@ -1,0 +1,78 @@
+Why This 
+Every people have different mindset for watching movie
+Every body wants to filter movie based on the custom way 
+Nobody wants to spend to much time for finding the right movie
+They don't want same recommendation again and again
+Everybody wants feel good experience after the watching movie ( they give their 2-3 hour) 
+
+
+Most Crucial:
+
+Unsatisfying ending
+Poor pacing
+Inconsistencies in the plot
+Lack of character development
+Predictable
+Poor acting
+Confusing plot
+Lack of logic
+Inaccuracies or misrepresentation
+Lack of suspense
+Lack of atmosphere
+Lack of attention to detail
+Lack of emotional connection
+
+Moderately Crucial:
+
+Lack of originality
+Lack of chemistry between actors
+Lack of humor
+Lack of nuance
+Lack of background music
+Lack of representation of diversity
+Lack of cultural representation
+
+Less Crucial:
+
+Lack of proper sound effects
+Weak special effects
+Inappropriate content
+Overhyped
+
+
+Emotional Dissonance: People might express disappointment, frustration, or dissatisfaction with how the movie concluded. They might mention feeling let down or unfulfilled by the way things wrapped up.
+
+Lack of Closure: If there's talk about loose ends, unanswered questions, or unresolved character arcs, it could indicate an unsatisfying ending. People might express a desire for more closure or clarity.
+
+Surprise Twist Reaction: An ending that relies on a big twist may lead to mixed reactions. Some people might feel that the twist was too abrupt or didn't fit well with the rest of the story.
+
+Unexpected Shift in Tone: If the movie's tone suddenly changes in the ending, causing confusion or not matching the overall mood of the story, it could be seen as unsatisfying.
+
+Sudden Resolution: If the ending wraps up the plot too quickly or easily, it might feel rushed and unsatisfying to those who were invested in the story's development.
+
+Dissimilar to Expectations: If the ending doesn't align with what viewers were hoping for or anticipating, they might express their dissatisfaction with how things turned out.
+
+Lack of Character Growth: If characters don't undergo significant development or change by the end of the movie, viewers might feel that the ending is unfulfilling.
+
+Contradicts the Theme: If the movie's themes or messages are contradicted by the ending, people might find it unsatisfying and inconsistent.
+
+Ambiguous Resolution: An ending that leaves a lot of things up in the air without providing any clear resolution or direction can be seen as unsatisfying.
+
+Negative Overall Tone: If the ending leaves viewers feeling sad, frustrated, or negative without a sense of closure or uplift, it can contribute to an unsatisfying impression.
+
+Data Collection: Gather a dataset of movie reviews or discussions that include the specific factors you want to rate, such as "Unsatisfying ending," "Poor pacing," and so on. Each review should ideally be labeled with the presence or absence of these factors.
+Data Preprocessing: Clean and preprocess the text data. This involves removing irrelevant information, special characters, and converting text to lowercase. You can also tokenize the text (splitting it into individual words) and remove stopwords.
+Feature Extraction: Convert the preprocessed text into numerical representations that machine learning models can understand. Techniques like TF-IDF (Term Frequency-Inverse Document Frequency) or word embeddings (like Word2Vec or GloVe) can be used for this purpose.
+Labeling: Assign a label to each review indicating the presence or absence of the specific factors. For example, if a review mentions "Unsatisfying ending," the label for that review should indicate its presence.
+Model Selection: Choose an appropriate machine learning algorithm for binary classification. Support Vector Machines (SVM), Random Forest, or even neural networks can be suitable choices. Since you're dealing with text, models that work well with text data, like Recurrent Neural Networks (RNNs) or Transformer-based models, could also be considered.
+Training: Split your dataset into a training set and a testing set. Train your chosen model using the training set, utilizing the labeled reviews as input features and the presence/absence labels as target values.
+Evaluation: Use the testing set to evaluate the model's performance. Common evaluation metrics for binary classification include accuracy, precision, recall, and F1-score. These metrics will help you understand how well your model is identifying the specific factors in the reviews.
+Prediction: Once your model is trained and evaluated, you can input new, unseen reviews into the model to predict the presence or absence of the factors you're interested in. The model will provide a prediction based on the text input.
+Rating Aggregation: To rate a movie based on the identified factors, you can calculate the percentage or frequency of reviews mentioning each factor. For example, if 70% of the reviews mention "Unsatisfying ending," you can assign a high rating to this factor.
+Visualization: Present the ratings for each factor using visualizations like bar charts or pie charts to provide an overview of the movie's strengths and weaknesses based on the analyzed reviews.
+
+
+Data Collection: Gather a dataset of movie reviews or discussions that include the specific factors you want to rate, such as "Unsatisfying ending," "Poor pacing," and so on. Each review should ideally be labeled with the presence or absence of these factors.
+Data Preprocessing: Clean and preprocess the text data. This involves removing irrelevant information, special characters, and converting text to lowercase. You can also tokenize the text (splitting it into individual words) and remove stopwords.
+Feature Extraction: Convert the preprocessed text into numerical representations that machine learning models can understand. Techniques like TF-IDF (Term 
+

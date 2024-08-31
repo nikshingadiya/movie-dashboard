@@ -130,3 +130,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+backend/app/__pycache__/api.cpython-38.pyc
